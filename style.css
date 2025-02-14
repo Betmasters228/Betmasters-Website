@@ -1,16 +1,15 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
+    text-align: center;
     margin: 0;
     padding: 0;
-    text-align: center;
-    background-color: #f4f4f4;
+    background: #f4f4f4;
 }
 
-/* Navigation Bar */
-nav {
-    background-color: #007bff;
-    padding: 10px;
+header {
+    background: #0073e6;
+    color: white;
+    padding: 15px;
 }
 
 nav ul {
@@ -20,64 +19,25 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 5px 10px;
-}
-
-nav ul li a.active {
-    font-weight: bold;
-    border-bottom: 2px solid yellow;
-}
-
-/* Hero Section */
-.hero {
-    background-color: #007bff;
-    color: white;
-    padding: 50px 20px;
-}
-
-.hero h1 {
-    font-size: 36px;
-}
-
-.hero p {
-    font-size: 18px;
-}
-
-/* Predictions Section */
-.predictions {
-    background-color: white;
-    margin: 20px auto;
+.predictions, .premium {
     padding: 20px;
-    border-radius: 8px;
-    width: 80%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.predictions h2 {
-    color: #007bff;
+.prediction-box {
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
 }
 
-.predictions ul {
-    list-style: none;
-    padding: 0;
-}
-
-.predictions ul li {
-    font-size: 18px;
-    margin: 10px 0;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
+.btn {
+    display: inline-block;
+    background: #ff9900;
     color: white;
-    padding: 10px;
-    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
 }
